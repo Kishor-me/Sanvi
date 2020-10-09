@@ -1,0 +1,33 @@
+/*Define varibale css*/
+
+$bgcolor:red;
+$textcolor:black;
+$fonsize:22px;
+$myfont: Helvetica, sans-serif;
+$mywidth:800px;
+$mycolor:orange;
+
+/*Use the variable*/
+
+body{
+	background-color:$bgcolor;
+	color:$textcolor;
+	font-size:$font-size;
+	font-family:$myfont;
+}
+#main{
+	width:$mywidth;
+}
+
+h1{
+	$mycolor:green;
+	color:$mycolor;
+}
+
+p{color:$mycolor;}
+
+
+
+
+
+
